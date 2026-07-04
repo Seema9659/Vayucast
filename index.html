@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>VayuCast - Weather Forecast</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="weatherAnimation"></div>
+
+<header>
+    <section id="name">
+
+        <div class="start">
+            <img id="logo" src="weather2.jpeg" alt="VayuCast logo">
+            <span class="brand-name">VAYUCAST</span>
+        </div>
+
+        <div class="search">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Search City..."
+            >
+
+            <button id="searchBtn">
+                🔍
+            </button>
+        </div>
+
+    </section>
+</header>
+
+<main>
+
+<div id="content">
+
+<div id="left">
+
+<section id="city">
+
+<div class="cc">
+
+<h1 id="cityName">📍 City, Country</h1>
+
+<p id="date">
+Day, Date Year
+</p>
+
+</div>
+
+</section>
+
+
+<section id="detail">
+
+<h2 id="weatherIcon">☀️</h2>
+
+<h1 id="temperature">18°C</h1>
+
+</section>
+
+
+<section id="feel">
+
+<div class="same">
+    <div class="info">
+        <p>Feels Like</p>
+        <h5 id="feelsLike">--°C</h5>
+    </div>
+</div>
+
+<div class="same">
+    <div class="info">
+        <p>Humidity</p>
+        <h5 id="humidity">--%</h5>
+    </div>
+</div>
+
+<div class="same">
+    <div class="info">
+        <p>Wind</p>
+        <h5 id="wind">-- km/h</h5>
+    </div>
+</div>
+
+<div class="same">
+    <div class="info">
+        <p>Pressure</p>
+        <h5 id="pressure">-- hPa</h5>
+    </div>
+</div>
+
+</section>
+
+
+<section id="extra">
+
+<div class="box">
+<div>
+<p>Sunrise</p>
+<h5 id="sunrise">--</h5>
+</div>
+</div>
+
+<div class="box">
+<div>
+<p>Sunset</p>
+<h5 id="sunset">--</h5>
+</div>
+</div>
+
+<div class="box">
+<div>
+<p>UV Index</p>
+<h5 id="uv">--</h5>
+</div>
+</div>
+
+<div class="box">
+<div>
+<p>Air Quality</p>
+<h5 id="air">--</h5>
+</div>
+</div>
+
+<div class="box">
+<div>
+<p>Visibility</p>
+<h5 id="visibility">-- km</h5>
+</div>
+</div>
+
+<div class="box">
+<div>
+<p>Rain</p>
+<h5 id="rain">0%</h5>
+</div>
+</div>
+
+</section>
+
+</div>
+
+
+<section id="days">
+
+<h2 class="days-title">5 Days Forecast</h2>
+
+<div class="date"></div>
+<div class="date"></div>
+<div class="date"></div>
+<div class="date"></div>
+<div class="date"></div>
+
+</section>
+
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
